@@ -1,7 +1,12 @@
 import "./App.css";
+import TaskList from "./components/TaskList";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <div className="bg-gray-100 pt-10">
+      <TaskList />
+    </div>
+  );
 }
 
 export default App;
